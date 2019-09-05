@@ -1,0 +1,55 @@
+import java.util.Scanner;
+
+public class Exercise9{
+	public static void main(String... args){
+	
+	System.out.print("Enter first integer:");
+	Scanner input = new Scanner(System.in);
+	int number1 = input.nextInt();
+	
+	System.out.print("Enter second integer"); 
+	int number2 = input.nextInt();
+	
+	System.out.print("Enter third integer");
+	int number3 = input.nextInt();
+	
+	System.out.print("Enter second integer");
+	int number4 = input.nextInt();
+
+	System.out.print("Enter fifth integer");
+	int number5 = input.nextInt();
+
+	int biggestInteger = 0;
+
+	if(number1 > number2) {
+		biggestInteger = number1; 
+		}
+	if(number2 > number1) {
+		biggestInteger = number2;
+		}
+	if(number2 > number3) {
+		biggestInteger = number2;
+		}
+	if(number3 > number2) {
+		biggestInteger = number3;
+		}
+	if(number3 > number4) {
+		biggestInteger = number3;
+		}
+	if(number4 > number3) {
+		biggestInteger = number4;
+		}
+	if(number4 > number5) {
+		biggestInteger = number4;
+		}
+	if(number5 > number4) {
+		biggestInteger = number5;
+  		}
+	if(number5 > biggestInteger) {
+		biggestInteger = number5;
+		}
+	if(biggestInteger > number5) {
+		biggestInteger = biggestInteger;
+		}
+	}
+}

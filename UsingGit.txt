@@ -1,0 +1,7 @@
+import java.util.Scanner;
+public class UsingGit{
+	public static void main{
+	System.out.print("");
+	
+	}
+}

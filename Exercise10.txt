@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Multiple{
+ public static void main(String... args){
+	Scanner collect = new Scanner(System);
+	System.out.print("Enter first number");
+	int firstNumber = collect.nextInt();
+	System.out.print("Enter second number");
+	int secondNumber = collect.nextInt();
+	int remainder = firstNumber % SecondNumber;
+	If(firstNumber == 0) {
+		
+		}
+	
+ 	}		
+}
